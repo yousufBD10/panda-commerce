@@ -11,8 +11,9 @@
 
   </head>
   <body>
+    <!-- nabvar start -->
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light mb-5">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light mb-5">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -23,9 +24,9 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link active" href="#">shoes</a>
-                  <a class="nav-link active" href="#">Backpack</a>
-                  <a class="nav-link active" href="#">Subscribes</a>
+                  <a class="nav-link active" href="#shoes">shoes</a>
+                  <a class="nav-link active" href="#backpack">Backpack</a>
+                  <a class="nav-link active" href="#subscribes">Subscribes</a>
                   
                 </div>
               </div>
@@ -51,7 +52,7 @@
                  <div class="carousel-inner">
                     
                     
-                  <div class="carousel-item active bg-danger">
+                  <div class="carousel-item active bg-colors">
                    
                   <div class="row align-items-center p-5">
                     
@@ -67,7 +68,7 @@
                 </div>
                   
                  </div>
-                  <div class="carousel-item active bg-danger">
+                  <div class="carousel-item active bg-colors">
                    
                   <div class="row align-items-center p-5">
                     
@@ -83,7 +84,7 @@
                 </div>
                   
                  </div>
-                  <div class="carousel-item active bg-danger">
+                  <div class="carousel-item active bg-colors">
                    
                   <div class="row align-items-center p-5">
                     
@@ -141,7 +142,7 @@
 
         <!-- catagories end -->
         <!-- shoes catagories start -->
-        <section class="container">
+        <section class="container" id="shoes">
             <h1 class="text-center my-5">Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -184,6 +185,73 @@
 
         </section>
         <!-- shoes catagories end -->
+        <!-- bags catagories start  -->
+        <section class="container" id="backpack">
+            <h1 class="text-center my-5">Bags</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                  <div class="card border-0 shadow-lg">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Red Laltu Bag</h5>
+                      <h3>$120</h3>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      
+                      <button class="btn btn-danger">
+                       Buy Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow-lg">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Blue Niltu Bag</h5>
+                      <h3>$320</h3>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
+                      <button class="btn btn-danger">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow-lg">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Black Kaltu Bag</h5>
+                      <h3>$269</h3>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+               
+                      <button class="btn btn-danger">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+
+        </section>
+        <!-- bags catagories end  -->
+        <!-- sribcribes start -->
+        <section class="container mt-5" id="subscribes">
+            <div class="text-center bg-info p-5">
+                <div>
+                    <h1>LET'S STAY IN TOUCH</h1>
+                    <P>Get updates on specials and more</P>
+                    <input type="email" name="" id="">
+                    <button class="btn btn-warning" type="submit">Submit</button>
+                </div>
+            </div>
+
+        </section>
+        <!-- sribcribes end -->
+        <!-- footer start -->
+        <footer class="container mt-5">
+            <div class="pt-5 text-center">
+                <h4 class="">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</h4>
+            </div>
+        </footer>
+        <!-- footer end -->
      
     </main>
 

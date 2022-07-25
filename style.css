@@ -1,3 +1,8 @@
-.bgcolors{
-    color: rgb(211, 100, 196);
+.bg-colors{
+    background-color: #D5EFFC;
+}
+footer{
+    height: 200px;
+    background-color: black;
+    color: white;
 }
